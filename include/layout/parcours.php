@@ -19,7 +19,7 @@
             <hr>
             <img src="./img/parcours/lou.png" class="img-fluid">
             <h2>Profession</h2>
-            <p>Depuis 2019 je produits des projets professionnels. Officiellement ouvert à toute proposition de travail sur la région ou full remote. Je cherche à monter en compétences...</p>
+            <p>Depuis 2019 je produis des projets professionnels. Officiellement ouvert à toute proposition de travail sur la région ou full remote. Je cherche à monter en compétences...</p>
         </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
     <div class="row">
