@@ -1,3 +1,8 @@
+/* line 1, ../../wamp/www/reboot_bbinformatique/css/sass/_blog.scss */
+.jumbotron {
+  margin-top: 15px;
+}
+
 /* line 1, ../../wamp/www/reboot_bbinformatique/css/sass/_body.scss */
 body {
   padding: 1rem;
@@ -18,6 +23,76 @@ body {
   padding-left: 1rem;
 }
 
+/* line 1, ../../wamp/www/reboot_bbinformatique/css/sass/_cover.scss */
+.cover {
+  height: 100%;
+  background-color: #333;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+/* line 12, ../../wamp/www/reboot_bbinformatique/css/sass/_cover.scss */
+.cover .btn-secondary,
+.cover .btn-secondary:hover,
+.cover .btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+  /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+/* line 20, ../../wamp/www/reboot_bbinformatique/css/sass/_cover.scss */
+.cover h1 {
+  color: #c10cb5;
+}
+
+/* line 23, ../../wamp/www/reboot_bbinformatique/css/sass/_cover.scss */
+.cover p {
+  color: greenyellow;
+}
+
+/* line 26, ../../wamp/www/reboot_bbinformatique/css/sass/_cover.scss */
+.cover .btn-primary {
+  background-color: #34ce57;
+  color: #ffffff;
+  border-color: #c10cb5;
+}
+
+/* line 31, ../../wamp/www/reboot_bbinformatique/css/sass/_cover.scss */
+.cover .btn-primary:hover {
+  background-color: #1c7430;
+  color: greenyellow;
+  border-color: #c10cb5;
+}
+
+/* line 36, ../../wamp/www/reboot_bbinformatique/css/sass/_cover.scss */
+.cover .btn-primary:focus, .cover .btn-primary .focus {
+  background-color: #1c7430;
+  color: greenyellow;
+  border-color: #c10cb5;
+}
+
+/* line 41, ../../wamp/www/reboot_bbinformatique/css/sass/_cover.scss */
+.cover .btn-primary:active {
+  background-color: #1c7430;
+  color: yellow;
+  border-color: #005cbf;
+}
+
+/* line 46, ../../wamp/www/reboot_bbinformatique/css/sass/_cover.scss */
+.cover .btn-primary:not(:disabled):not(.disabled):active, .cover .btn-primary:not(:disabled):not(.disabled).active,
+.cover .show > .btn-primary.dropdown-toggle {
+  color: yellow;
+  background-color: lawngreen;
+  border-color: blue;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 /* Carousel base class */
@@ -33,38 +108,38 @@ body {
 
 /* line 14, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
 .carousel h1 {
-  color: blueviolet;
+  color: #c10cb5;
 }
 
-/* line 16, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+/* line 17, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
 .carousel .btn-primary {
   background-color: #34ce57;
   color: #ffffff;
-  border-color: blueviolet;
+  border-color: #c10cb5;
 }
 
-/* line 21, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+/* line 22, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
 .carousel .btn-primary:hover {
   background-color: #1c7430;
   color: greenyellow;
-  border-color: #6f42c1;
+  border-color: #c10cb5;
 }
 
-/* line 26, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+/* line 27, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
 .carousel .btn-primary:focus, .carousel .btn-primary .focus {
   background-color: #1c7430;
   color: greenyellow;
-  border-color: #6f42c1;
+  border-color: #c10cb5;
 }
 
-/* line 31, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+/* line 32, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
 .carousel .btn-primary:active {
   background-color: #1c7430;
   color: yellow;
   border-color: #005cbf;
 }
 
-/* line 36, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+/* line 37, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
 .carousel .btn-primary:not(:disabled):not(.disabled):active, .carousel .btn-primary:not(:disabled):not(.disabled).active,
 .carousel .show > .btn-primary.dropdown-toggle {
   color: yellow;
@@ -72,13 +147,13 @@ body {
   border-color: blue;
 }
 
-/* line 42, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+/* line 43, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
 .carousel p {
   color: greenyellow;
 }
 
 /* Since positioning the image, we need to help out the caption */
-/* line 47, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+/* line 48, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
 .carousel-caption {
   bottom: 3rem;
   left: 10%;
@@ -86,12 +161,12 @@ body {
 }
 
 /* Declare heights because of positioning of img element */
-/* line 54, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+/* line 55, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
 .carousel-item {
   height: 32rem;
 }
 
-/* line 57, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+/* line 58, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
 .carousel-item > img {
   position: absolute;
   top: 0;
@@ -103,18 +178,18 @@ body {
 /* MARKETING CONTENT
 -------------------------------------------------- */
 /* Center align the text within the three columns below the carousel */
-/* line 70, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+/* line 71, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
 
-/* line 74, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+/* line 75, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
 .marketing h2 {
   font-weight: 400;
 }
 
-/* line 77, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+/* line 78, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
@@ -122,14 +197,14 @@ body {
 
 /* Featurettes
 ------------------------- */
-/* line 86, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+/* line 87, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
 .featurette-divider {
   margin: 5rem 0;
   /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
-/* line 91, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+/* line 92, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
@@ -140,20 +215,20 @@ body {
 -------------------------------------------------- */
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
-  /* line 103, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+  /* line 104, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
   }
-  /* line 109, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+  /* line 110, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
   .featurette-heading {
     font-size: 50px;
   }
 }
 
 @media (min-width: 62em) {
-  /* line 115, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
+  /* line 116, ../../wamp/www/reboot_bbinformatique/css/sass/_caroussel.scss */
   .featurette-heading {
     margin-top: 7rem;
   }

@@ -11,6 +11,6 @@
         <link rel="shortcut icon" type="image/x-icon" href="./img/favicon_bb.png">
         <!-- Link -->
         <link rel="stylesheet" href="./css/bootstrap.css">
-        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/main.css?v=1.<?php echo time();?>">
     </head>
 <body>

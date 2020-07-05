@@ -1,5 +1,8 @@
 <?php include ('./include/layout/header.php');?>
 <?php include ('./include/layout/parcours.php');?>
+<?php include ('./include/layout/cover.php');?>
+<?php include ('./include/layout/blog.php');?>
+
 <section >
     <h1>Test de titre</h1>
     <h2>Test de sous-titre</h2>

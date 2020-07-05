@@ -1,5 +1,4 @@
 <div class="container marketing">
-
     <!-- Three columns of text below the carousel -->
     <div class="row">
         <h1>D'une passion à la reconversion professionnelle :</h1>
@@ -21,9 +20,9 @@
             <h2>Profession</h2>
             <p>Depuis 2019 je produis des projets professionnels. Officiellement ouvert à toute proposition de travail sur la région ou full remote. Je cherche à monter en compétences...</p>
         </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
+    </div>
+    <!-- Three columns of btn below the txt -->
     <div class="row">
-
         <div class="col-lg-4">
             <hr>
             <p><a class="btn btn-secondary" href="#" role="button">Culture Informatique &raquo;</a></p>

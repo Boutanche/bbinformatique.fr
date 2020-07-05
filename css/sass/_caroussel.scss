@@ -12,21 +12,22 @@
   }
 
   h1 {
-    color: blueviolet;
-  }  .btn-primary {
+    color: #c10cb5;
+  }
+  .btn-primary {
        background-color: #34ce57;
        color: #ffffff;
-       border-color: blueviolet;
+       border-color: #c10cb5;
      }
   .btn-primary:hover {
     background-color: #1c7430;
     color: greenyellow;
-    border-color: #6f42c1;
+    border-color: #c10cb5;
   }
   .btn-primary:focus, .btn-primary .focus {
     background-color: #1c7430;
     color: greenyellow;
-    border-color: #6f42c1;
+    border-color: #c10cb5;
   }
   .btn-primary:active {
     background-color: #1c7430;
